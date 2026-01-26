@@ -1,3 +1,22 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "how-it-works-1",
+      "description": "Illustration for business needs analysis step.",
+      "imageUrl": "https://images.unsplash.com/photo-1532619675605-1ede6c2ed2b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxidXNpbmVzcyUyMGFuYWx5c2lzfGVufDB8fHx8MTc2OTQ2MDEzN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "business analysis"
+    },
+    {
+      "id": "how-it-works-2",
+      "description": "Illustration for AI system development and integration step.",
+      "imageUrl": "https://images.unsplash.com/photo-1659896974794-5c850f933210?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzeXN0ZW0lMjBpbnRlZ3JhdGlvbnxlbnwwfHx8fDE3Njk0NjAxMzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "system integration"
+    },
+    {
+      "id": "how-it-works-3",
+      "description": "Illustration for monitoring and training step.",
+      "imageUrl": "https://images.unsplash.com/photo-1767059439535-10d3f5e6ad35?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxkYXRhJTIwbW9uaXRvcmluZ3xlbnwwfHx8fDE3Njk0NjAxMzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "data monitoring"
+    }
+  ]
 }
