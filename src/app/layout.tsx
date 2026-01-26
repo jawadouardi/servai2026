@@ -5,17 +5,17 @@ import Script from 'next/script';
 import { ElevenLabsWidget } from '@/components/elevenlabs-widget';
 
 export const metadata: Metadata = {
-  title: 'Automato AI | Assistenti Vocali, Chatbot e Automazioni AI',
-  description: "Automato AI trasforma le PMI con intelligenza artificiale: assistenti vocali che rispondono 24/7, chatbot intelligenti e automazioni che riducono i costi fino al 70%. Supporto completo incluso.",
+  title: 'SERV AI | Assistenti Vocali, Chatbot e Automazioni AI',
+  description: "SERV AI trasforma le PMI con intelligenza artificiale: assistenti vocali che rispondono 24/7, chatbot intelligenti e automazioni che riducono i costi fino al 70%. Supporto completo incluso.",
   openGraph: {
-    title: 'Automato AI | Assistenti Vocali, Chatbot e Automazioni AI',
-    description: "Automato AI trasforma le PMI con intelligenza artificiale: assistenti vocali che rispondono 24/7, chatbot intelligenti e automazioni che riducono i costi fino al 70%. Supporto completo incluso.",
+    title: 'SERV AI | Assistenti Vocali, Chatbot e Automazioni AI',
+    description: "SERV AI trasforma le PMI con intelligenza artificiale: assistenti vocali che rispondono 24/7, chatbot intelligenti e automazioni che riducono i costi fino al 70%. Supporto completo incluso.",
     images: ['https://framerusercontent.com/images/pMXKf6x6AtcW9rYP62btrv6kpnk.png'],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Automato AI | Assistenti Vocali, Chatbot e Automazioni AI',
-    description: "Automato AI trasforma le PMI con intelligenza artificiale: assistenti vocali che rispondono 24/7, chatbot intelligenti e automazioni che riducono i costi fino al 70%. Supporto completo incluso.",
+    title: 'SERV AI | Assistenti Vocali, Chatbot e Automazioni AI',
+    description: "SERV AI trasforma le PMI con intelligenza artificiale: assistenti vocali che rispondono 24/7, chatbot intelligenti e automazioni che riducono i costi fino al 70%. Supporto completo incluso.",
     images: ['https://framerusercontent.com/images/pMXKf6x6AtcW9rYP62btrv6kpnk.png'],
   },
   icons: {
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     ],
     apple: 'https://framerusercontent.com/images/mtbxR8bcvJsfNOfd4v0Z2t21o.png',
   },
-  metadataBase: new URL('https://www.automatoai.it/'),
+  metadataBase: new URL('https://www.servai.it/'),
   alternates: {
     canonical: '/',
   },

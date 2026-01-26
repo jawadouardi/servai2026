@@ -39,8 +39,8 @@ export function Contact() {
     {
       icon: <Mail className="h-6 w-6 text-primary" />,
       title: 'Mail',
-      value: 'info@automatoai.it',
-      href: 'mailto:info@automatoai.it',
+      value: 'info@servai.it',
+      href: 'mailto:info@servai.it',
     },
     {
       icon: <Phone className="h-6 w-6 text-primary" />,

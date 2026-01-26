@@ -31,7 +31,7 @@ export function Footer() {
         <div className="border-t border-white/10 pt-12">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="md:col-span-1">
-              <h3 className="font-headline text-lg font-semibold text-white mb-4">Automato AI</h3>
+              <h3 className="font-headline text-lg font-semibold text-white mb-4">SERV AI</h3>
               <p className="text-sm text-primary-foreground/60">
                 Rivoluzioniamo le imprese con l’automazione intelligente.
               </p>
@@ -60,7 +60,7 @@ export function Footer() {
 
         <div className="border-t border-white/10 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center text-center md:text-left">
           <p className="text-xs text-primary-foreground/50 mb-4 md:mb-0">
-            © {new Date().getFullYear()} Automato S.R.L. – Tutti i diritti riservati Startup innovativa iscritta al Registro delle Imprese di Siracusa P.IVA 02173470895 – REA SR-478395
+            © {new Date().getFullYear()} SERV AI S.R.L. – Tutti i diritti riservati Startup innovativa iscritta al Registro delle Imprese di Siracusa P.IVA 02173470895 – REA SR-478395
           </p>
           <div className="flex items-center space-x-4">
             {socialLinks.map((social) => (

@@ -27,7 +27,7 @@ export function Header() {
             <Link href="/" className="flex-shrink-0">
               <Image
                 src="https://framerusercontent.com/images/IuQtlcjFFRODhKSo15grFtWPQs.png"
-                alt="Automato AI Logo"
+                alt="SERV AI Logo"
                 width={151}
                 height={25}
                 priority
@@ -50,7 +50,7 @@ export function Header() {
             <Link href="/">
               <Image
                 src="https://framerusercontent.com/images/mtbxR8bcvJsfNOfd4v0Z2t21o.png"
-                alt="Automato AI Logo"
+                alt="SERV AI Logo"
                 width={40}
                 height={40}
                 priority
@@ -69,7 +69,7 @@ export function Header() {
                      <Link href="/" onClick={() => setMenuOpen(false)}>
                         <Image
                             src="https://framerusercontent.com/images/IuQtlcjFFRODhKSo15grFtWPQs.png"
-                            alt="Automato AI Logo"
+                            alt="SERV AI Logo"
                             width={151}
                             height={25}
                           />

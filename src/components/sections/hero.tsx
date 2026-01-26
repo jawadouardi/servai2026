@@ -21,7 +21,7 @@ export function Hero() {
             Trasforma la tua Azienda con l'Intelligenza Artificiale.
           </h1>
           <p className="mt-6 max-w-xl mx-auto text-lg text-gray-300">
-            Automato porta l'AI nelle mani di piccole e medie imprese: automazioni intelligenti che liberano tempo, riducono costi e accelerano la crescita.
+            SERV AI porta l'AI nelle mani di piccole e medie imprese: automazioni intelligenti che liberano tempo, riducono costi e accelerano la crescita.
           </p>
           <div className="mt-10">
             <Button asChild size="lg" className="bg-primary text-primary-foreground font-bold hover:bg-primary/90 text-lg px-8 py-6 rounded-full">
