@@ -2,7 +2,6 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
@@ -15,6 +14,13 @@ const navLinks = [
   { href: '#faqs', label: 'FAQs' },
 ];
 
+const Logo = () => (
+    <div className="text-2xl font-bold tracking-tight">
+      <span className="text-primary">SERV</span>
+      <span className="text-white">AI</span>
+    </div>
+);
+
 export function Header() {
   const [isMenuOpen, setMenuOpen] = useState(false);
 
@@ -25,13 +31,7 @@ export function Header() {
           {/* Desktop and Tablet navigation */}
           <div className="hidden lg:flex flex-1 items-center justify-between backdrop-blur-md bg-black/30 border border-gray-800/50 rounded-full px-4 py-2">
             <Link href="/" className="flex-shrink-0">
-              <Image
-                src="https://framerusercontent.com/images/IuQtlcjFFRODhKSo15grFtWPQs.png"
-                alt="SERV AI Logo"
-                width={151}
-                height={25}
-                priority
-              />
+              <Logo />
             </Link>
             <nav className="flex space-x-6">
               {navLinks.map((link) => (
@@ -48,13 +48,7 @@ export function Header() {
           {/* Mobile navigation */}
           <div className="lg:hidden flex w-full items-center justify-between px-4">
             <Link href="/">
-              <Image
-                src="https://framerusercontent.com/images/mtbxR8bcvJsfNOfd4v0Z2t21o.png"
-                alt="SERV AI Logo"
-                width={40}
-                height={40}
-                priority
-              />
+              <Logo />
             </Link>
             <Sheet open={isMenuOpen} onOpenChange={setMenuOpen}>
               <SheetTrigger asChild>
@@ -67,12 +61,7 @@ export function Header() {
                 <div className="flex h-full flex-col p-6">
                   <div className="flex items-center justify-between">
                      <Link href="/" onClick={() => setMenuOpen(false)}>
-                        <Image
-                            src="https://framerusercontent.com/images/IuQtlcjFFRODhKSo15grFtWPQs.png"
-                            alt="SERV AI Logo"
-                            width={151}
-                            height={25}
-                          />
+                        <Logo />
                      </Link>
                     <SheetTrigger asChild>
                       <Button variant="ghost" size="icon">
