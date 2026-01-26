@@ -7,11 +7,11 @@ import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 
 const navLinks = [
-  { href: '#how-it-works', label: 'Come Funziona' },
-  { href: '#services', label: 'Soluzioni' },
-  { href: '#case-studies', label: 'Case Studies' },
+  { href: '#how-it-works', label: 'Processo' },
+  { href: '#services', label: 'Servizi' },
+  { href: '#case-studies', label: 'Casi di Successo' },
   { href: '#contact', label: 'Contatti' },
-  { href: '#faqs', label: 'FAQs' },
+  { href: '#faqs', label: 'Domande Frequenti' },
 ];
 
 const Logo = () => (
@@ -41,7 +41,7 @@ export function Header() {
               ))}
             </nav>
             <Button asChild className="bg-[rgb(22,63,45)] text-emerald-200 hover:bg-[rgb(32,93,65)] rounded-full">
-              <a href="https://meetings-eu1.hubspot.com/automato" target="_blank" rel="noopener noreferrer">Contattaci</a>
+              <a href="https://meetings-eu1.hubspot.com/automato" target="_blank" rel="noopener noreferrer">Richiedi una Demo</a>
             </Button>
           </div>
 
@@ -83,7 +83,7 @@ export function Header() {
                     ))}
                   </nav>
                    <Button asChild className="mt-auto bg-[rgb(22,63,45)] text-emerald-200 hover:bg-[rgb(32,93,65)]">
-                      <a href="https://meetings-eu1.hubspot.com/automato" target="_blank" rel="noopener noreferrer">Contattaci</a>
+                      <a href="https://meetings-eu1.hubspot.com/automato" target="_blank" rel="noopener noreferrer">Richiedi una Demo</a>
                     </Button>
                 </div>
               </SheetContent>

@@ -1,5 +1,5 @@
 export function Partners() {
-    const marqueeText = "Aiutiamo le imprese a crescere portando l’intelligenza artificiale nel cuore del loro business. Sviluppiamo sistemi su misura che sfruttano la potenza dell’AI per rivoluzionare i processi aziendali, ridurre i costi operativi e aumentare i profitti in modo sostenibile.";
+    const marqueeText = "Dalla Lead Generation alla gestione del cliente, automatizziamo i processi aziendali con l'AI per scalare il tuo business.";
 
     return (
       <section id="partners" className="bg-card py-12 overflow-hidden">

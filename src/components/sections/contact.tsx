@@ -62,8 +62,8 @@ export function Contact() {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-24 items-start">
           <div className="space-y-8">
             <div>
-              <p className="font-headline text-sm uppercase tracking-widest text-primary mb-2">Teniamoci in contatto</p>
-              <h2 className="font-headline text-4xl md:text-5xl font-bold">Contatti</h2>
+              <p className="font-headline text-sm uppercase tracking-widest text-primary mb-2">Lavoriamo Insieme</p>
+              <h2 className="font-headline text-4xl md:text-5xl font-bold">Richiedi una Consulenza</h2>
             </div>
             <div className="space-y-6">
               {contactInfo.map((item) => (
@@ -94,7 +94,7 @@ export function Contact() {
                         <FormItem>
                           <FormLabel>Nome e Cognome</FormLabel>
                           <FormControl>
-                            <Input placeholder="Antonio Conte" {...field} className="bg-input border-0 focus-visible:ring-1 focus-visible:ring-primary"/>
+                            <Input placeholder="Mario Rossi" {...field} className="bg-input border-0 focus-visible:ring-1 focus-visible:ring-primary"/>
                           </FormControl>
                           <FormMessage />
                         </FormItem>
@@ -107,7 +107,7 @@ export function Contact() {
                         <FormItem>
                           <FormLabel>Ragione Sociale</FormLabel>
                           <FormControl>
-                            <Input placeholder="AI Innovations S.r.l." {...field} className="bg-input border-0 focus-visible:ring-1 focus-visible:ring-primary"/>
+                            <Input placeholder="Nome Azienda" {...field} className="bg-input border-0 focus-visible:ring-1 focus-visible:ring-primary"/>
                           </FormControl>
                           <FormMessage />
                         </FormItem>
@@ -120,7 +120,7 @@ export function Contact() {
                         <FormItem>
                           <FormLabel>Email</FormLabel>
                           <FormControl>
-                            <Input placeholder="elconte@aiagency.com" {...field} className="bg-input border-0 focus-visible:ring-1 focus-visible:ring-primary"/>
+                            <Input placeholder="tua@email.com" {...field} className="bg-input border-0 focus-visible:ring-1 focus-visible:ring-primary"/>
                           </FormControl>
                           <FormMessage />
                         </FormItem>
@@ -133,13 +133,13 @@ export function Contact() {
                         <FormItem>
                           <FormLabel>Messaggio</FormLabel>
                           <FormControl>
-                            <Textarea placeholder="Ciao! Vorrei sapere di più su..." {...field} className="min-h-[120px] bg-input border-0 focus-visible:ring-1 focus-visible:ring-primary" />
+                            <Textarea placeholder="Scrivi qui il tuo messaggio..." {...field} className="min-h-[120px] bg-input border-0 focus-visible:ring-1 focus-visible:ring-primary" />
                           </FormControl>
                           <FormMessage />
                         </FormItem>
                       )}
                     />
-                    <Button type="submit" className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-bold">Invia</Button>
+                    <Button type="submit" className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-bold">Invia Richiesta</Button>
                   </form>
                 </Form>
               </CardContent>

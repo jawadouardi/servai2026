@@ -5,17 +5,17 @@ import Script from 'next/script';
 import { ElevenLabsWidget } from '@/components/elevenlabs-widget';
 
 export const metadata: Metadata = {
-  title: 'SERV AI | Assistenti Vocali, Chatbot e Automazioni AI',
-  description: "SERV AI trasforma le PMI con intelligenza artificiale: assistenti vocali che rispondono 24/7, chatbot intelligenti e automazioni che riducono i costi fino al 70%. Supporto completo incluso.",
+  title: 'SERV AI | Intelligenza Artificiale per Piccole e Medie Imprese',
+  description: "Sistemi AI su misura per automatizzare vendite, marketing e servizio clienti. Riduci i costi, aumenta l'efficienza e fai crescere la tua PMI.",
   openGraph: {
-    title: 'SERV AI | Assistenti Vocali, Chatbot e Automazioni AI',
-    description: "SERV AI trasforma le PMI con intelligenza artificiale: assistenti vocali che rispondono 24/7, chatbot intelligenti e automazioni che riducono i costi fino al 70%. Supporto completo incluso.",
+    title: 'SERV AI | Intelligenza Artificiale per Piccole e Medie Imprese',
+    description: "Sistemi AI su misura per automatizzare vendite, marketing e servizio clienti. Riduci i costi, aumenta l'efficienza e fai crescere la tua PMI.",
     images: ['https://framerusercontent.com/images/pMXKf6x6AtcW9rYP62btrv6kpnk.png'],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'SERV AI | Assistenti Vocali, Chatbot e Automazioni AI',
-    description: "SERV AI trasforma le PMI con intelligenza artificiale: assistenti vocali che rispondono 24/7, chatbot intelligenti e automazioni che riducono i costi fino al 70%. Supporto completo incluso.",
+    title: 'SERV AI | Intelligenza Artificiale per Piccole e Medie Imprese',
+    description: "Sistemi AI su misura per automatizzare vendite, marketing e servizio clienti. Riduci i costi, aumenta l'efficienza e fai crescere la tua PMI.",
     images: ['https://framerusercontent.com/images/pMXKf6x6AtcW9rYP62btrv6kpnk.png'],
   },
   icons: {
@@ -38,7 +38,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="it-IT" className="dark">
+    <html lang="it" className="dark">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />

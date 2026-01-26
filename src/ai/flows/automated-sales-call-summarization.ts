@@ -1,6 +1,6 @@
 'use server';
 /**
- * @fileOverview A sales call summarization AI agent.
+ * @fileOverview Agente AI per la sumarizzazione delle chiamate di vendita.
  *
  * - summarizeSalesCall - A function that handles the sales call summarization process.
  * - SummarizeSalesCallInput - The input type for the summarizeSalesCall function.
@@ -18,8 +18,8 @@ const SummarizeSalesCallInputSchema = z.object({
 export type SummarizeSalesCallInput = z.infer<typeof SummarizeSalesCallInputSchema>;
 
 const SummarizeSalesCallOutputSchema = z.object({
-  summary: z.string().describe('A summary of the sales call.'),
-  actionItems: z.string().describe('A list of action items for the sales representative.'),
+  summary: z.string().describe('Un riassunto della chiamata di vendita.'),
+  actionItems: z.string().describe('Una lista di azioni da intraprendere per il rappresentante di vendita.'),
 });
 export type SummarizeSalesCallOutput = z.infer<typeof SummarizeSalesCallOutputSchema>;
 
@@ -31,11 +31,11 @@ const prompt = ai.definePrompt({
   name: 'summarizeSalesCallPrompt',
   input: {schema: SummarizeSalesCallInputSchema},
   output: {schema: SummarizeSalesCallOutputSchema},
-  prompt: `You are an AI assistant helping sales representatives summarize their sales calls.
+  prompt: `Sei un assistente AI che aiuta i rappresentanti di vendita a riassumere le loro chiamate.
 
-  Given the following call transcript, provide a summary of the call and a list of action items for the sales representative.
+  Data la seguente trascrizione della chiamata, fornisci un riassunto della chiamata e una lista di azioni da intraprendere per il rappresentante.
 
-  Call Transcript:
+  Trascrizione Chiamata:
   {{callTranscript}}`,
 });
 

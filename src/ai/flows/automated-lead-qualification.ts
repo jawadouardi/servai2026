@@ -2,7 +2,7 @@
 'use server';
 
 /**
- * @fileOverview Automatically qualifies leads based on budget and preferences collected through a chatbot.
+ * @fileOverview Qualifica automaticamente i lead in base a budget e preferenze raccolte tramite chatbot.
  *
  * - automatedLeadQualification - A function that handles the lead qualification process.
  * - AutomatedLeadQualificationInput - The input type for the automatedLeadQualification function.

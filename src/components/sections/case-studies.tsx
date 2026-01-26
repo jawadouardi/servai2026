@@ -6,11 +6,11 @@ import { ArrowRightIcon } from "@/components/icons/arrow-right";
 const caseStudies = [
   {
     category: "Medico",
-    title: "Questo studio dentistico non perde neanche una chiamata con assistente vocale AI 24/7",
-    description: "L'assistente vocale gestisce prenotazioni, conferme appuntamenti e FAQ sui trattamenti. Libera il personale alla poltrona e garantisce risposta immediata anche fuori orario, eliminando appuntamenti mancati.",
+    title: "Studio dentistico aumenta le prenotazioni con un Assistente Vocale AI",
+    description: "L'assistente AI gestisce prenotazioni e FAQ 24/7, riducendo il carico di lavoro del personale e garantendo che ogni potenziale paziente riceva una risposta immediata.",
     metrics: [
-      { value: "85%", label: "Tasso risposta chiamate" },
-      { value: "-55%", label: "No-show appuntamenti" },
+      { value: "+35%", label: "Nuovi appuntamenti" },
+      { value: "-90%", label: "Chiamate perse" },
     ],
     imageSrc: "https://framerusercontent.com/images/vy51tWsQc14L2UHE2GS2AyYyQpM.png",
     imageAlt: "Studio Dentistico AI Assistant",
@@ -18,11 +18,11 @@ const caseStudies = [
   },
   {
     category: "Retail",
-    title: "Come una catena palestre riattiva oltre 2.400 iscritti inattivi con campagne AI",
-    description: "Sistema di chiamate outbound automatizzate contatta ex-membri con offerte personalizzate basate su storico allenamenti. Promuove nuovi corsi e abbonamenti, recuperando fatturato da database dormiente senza agenti umani.",
+    title: "Catena di palestre riattiva 2.400+ membri con campagne di Outreach AI",
+    description: "Abbiamo implementato un sistema di chiamate automatiche per contattare ex-membri con offerte personalizzate, recuperando un'importante fetta di fatturato da un database inattivo.",
     metrics: [
-      { value: "+28%", label: "Tasso riattivazione" },
-      { value: "€47.000", label: "Fatturato recuperato/mese" },
+      { value: "+28%", label: "Tasso di riattivazione" },
+      { value: "€47k+", label: "Fatturato mensile recuperato" },
     ],
     imageSrc: "https://framerusercontent.com/images/55bxPeXMH4LeZyWmb0JOSJJJkSY.png",
     imageAlt: "Catena Palestre AI Campaign",
@@ -30,11 +30,11 @@ const caseStudies = [
   },
   {
     category: "Agenzia",
-    title: "Come una agenzia immobiliare qualifica 340 lead mensili con chatbot intelligente",
-    description: "Chatbot sul sito conversa con visitatori, identifica budget e preferenze immobili, filtra curiosi da acquirenti seri. Sincronizza automaticamente dati qualificati nel CRM per follow-up mirato da agenti.",
+    title: "Agenzia immobiliare qualifica il 73% dei lead con un Chatbot AI",
+    description: "Il chatbot qualifica i visitatori del sito in base a budget e preferenze, sincronizzando i lead migliori direttamente nel CRM e permettendo agli agenti di concentrarsi solo sulle trattative più promettenti.",
     metrics: [
-      { value: "73%", label: "Lead qualificati" },
-      { value: "-65%", label: "Tempo agenti su prospect freddi" },
+      { value: "+73%", label: "Lead qualificati al mese" },
+      { value: "-65%", label: "Tempo speso su lead non qualificati" },
     ],
     imageSrc: "https://framerusercontent.com/images/qWNcpodz7MNhjnkcfpqjtk10.png",
     imageAlt: "Agenzia Immobiliare Chatbot",
@@ -47,8 +47,8 @@ export function CaseStudies() {
     <section id="case-studies" className="py-20 sm:py-32">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <p className="font-headline text-sm uppercase tracking-widest text-primary mb-2">Case Studies</p>
-          <h2 className="font-headline text-4xl md:text-5xl font-bold">Casi di Applicazione</h2>
+          <p className="font-headline text-sm uppercase tracking-widest text-primary mb-2">Casi di Successo</p>
+          <h2 className="font-headline text-4xl md:text-5xl font-bold">I Risultati dei Nostri Clienti</h2>
         </div>
         
         <div className="relative max-w-4xl mx-auto">

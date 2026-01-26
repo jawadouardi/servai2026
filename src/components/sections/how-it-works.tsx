@@ -5,20 +5,20 @@ import { placeholderImages } from "@/lib/placeholder-images";
 const steps = [
   {
     step: "01",
-    title: "Analisi delle esigenze aziendali",
-    description: "Partiamo con un audit gratuito per comprendere i processi, i software e le aree in cui l’automazione genera il maggior ritorno sull’investimento.",
+    title: "Audit & Strategia",
+    description: "Iniziamo con un'analisi approfondita dei tuoi processi per identificare le migliori opportunità di automazione e definire una strategia su misura.",
     image: placeholderImages[0],
   },
   {
     step: "02",
-    title: "Sviluppo e integrazione del sistema AI",
-    description: "Creiamo e integriamo soluzioni su misura nei flussi di lavoro dell’azienda, mantenendo la massima compatibilità con i sistemi esistenti.",
+    title: "Sviluppo e Integrazione",
+    description: "Sviluppiamo e integriamo le soluzioni AI nei tuoi sistemi esistenti (CRM, calendari, gestionali) per un'operatività fluida e senza interruzioni.",
     image: placeholderImages[1],
   },
   {
     step: "03",
-    title: "Monitoraggio e formazione",
-    description: "Addestriamo il team all’uso delle nuove tecnologie e monitoriamo i risultati per ottimizzare e migliorare costantemente le prestazioni.",
+    title: "Ottimizzazione & Supporto",
+    description: "Formiamo il tuo team, monitoriamo le performance del sistema e ottimizziamo costantemente i flussi per garantire il massimo risultato nel tempo.",
     image: placeholderImages[2],
   },
 ];
@@ -29,7 +29,7 @@ export function HowItWorks() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <p className="font-headline text-sm uppercase tracking-widest text-primary mb-2">Processo</p>
-          <h2 className="font-headline text-4xl md:text-5xl font-bold">Come funziona</h2>
+          <h2 className="font-headline text-4xl md:text-5xl font-bold">Il Nostro Processo</h2>
         </div>
         <div className="grid md:grid-cols-3 gap-8">
           {steps.map((step) => (
