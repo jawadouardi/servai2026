@@ -15,11 +15,31 @@ const navLinks = [
 ];
 
 const Logo = () => (
-    <div className="text-2xl font-bold font-headline tracking-tight">
-      <span className="text-primary">SERV</span>
-      <span className="text-white">AI</span>
+    <div className="flex items-center gap-2 text-2xl font-bold font-headline tracking-tight">
+        <div className="w-7 h-7 flex items-center justify-center bg-primary rounded-md">
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="hsl(var(--primary-foreground))"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+            >
+                <path d="M12 8V4H8" />
+                <rect width="12" height="12" x="4" y="8" rx="2" />
+                <path d="M8 12h4" />
+                <path d="M12 16h4" />
+                <path d="M16 12v4" />
+            </svg>
+        </div>
+      <span className="text-white">SERV</span>
+      <span className="text-primary">AI</span>
     </div>
 );
+
 
 export function Header() {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -40,7 +60,7 @@ export function Header() {
                 </Link>
               ))}
             </nav>
-            <Button asChild className="bg-[rgb(22,63,45)] text-emerald-200 hover:bg-[rgb(32,93,65)] rounded-full">
+            <Button asChild className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-full">
               <a href="https://meetings-eu1.hubspot.com/automato" target="_blank" rel="noopener noreferrer">Richiedi una Demo</a>
             </Button>
           </div>
@@ -82,7 +102,7 @@ export function Header() {
                       </Link>
                     ))}
                   </nav>
-                   <Button asChild className="mt-auto bg-[rgb(22,63,45)] text-emerald-200 hover:bg-[rgb(32,93,65)]">
+                   <Button asChild className="mt-auto bg-primary text-primary-foreground hover:bg-primary/90">
                       <a href="https://meetings-eu1.hubspot.com/automato" target="_blank" rel="noopener noreferrer">Richiedi una Demo</a>
                     </Button>
                 </div>

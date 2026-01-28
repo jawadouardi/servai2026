@@ -10,18 +10,45 @@ const socialLinks = [
   { icon: Twitter, href: '#', name: 'X' },
 ];
 
+const Logo = () => (
+    <div className="flex items-center gap-2 text-lg font-bold font-headline tracking-tight mb-4">
+        <div className="w-6 h-6 flex items-center justify-center bg-primary rounded-md">
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="hsl(var(--primary-foreground))"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+            >
+                <path d="M12 8V4H8" />
+                <rect width="12" height="12" x="4" y="8" rx="2" />
+                <path d="M8 12h4" />
+                <path d="M12 16h4" />
+                <path d="M16 12v4" />
+            </svg>
+        </div>
+        <span className="text-white">SERV</span>
+        <span className="text-primary">AI</span>
+    </div>
+);
+
+
 export function Footer() {
   return (
-    <footer className="bg-[rgb(22,63,45)] text-primary-foreground/80 pt-16 pb-8 px-4 sm:px-6 lg:px-8 rounded-t-3xl mt-12">
+    <footer className="bg-secondary text-secondary-foreground/80 pt-16 pb-8 px-4 sm:px-6 lg:px-8 rounded-t-3xl mt-12">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col items-center text-center mb-16">
-          <h2 className="font-headline text-3xl md:text-5xl font-bold text-emerald-200 mb-4">
+          <h2 className="font-headline text-3xl md:text-5xl font-bold text-primary mb-4">
             Pronto a Portare la tua Azienda nel Futuro?
           </h2>
-          <p className="max-w-2xl mb-8 text-primary-foreground/70">
+          <p className="max-w-2xl mb-8 text-secondary-foreground/70">
             Non lasciare che la concorrenza ti superi. Ogni giorno senza automazione è un'opportunità persa. Inizia oggi: un audit gratuito di 30 minuti ti mostrerà il potenziale di guadagno nascosto nei tuoi processi.
           </p>
-          <Button asChild size="lg" className="bg-emerald-300 text-emerald-950 font-bold hover:bg-emerald-400">
+          <Button asChild size="lg" className="bg-primary text-primary-foreground font-bold hover:bg-primary/90">
             <a href="https://meetings-eu1.hubspot.com/automato" target="_blank" rel="noopener noreferrer">
               Prenota un Audit Gratuito
             </a>
@@ -31,11 +58,8 @@ export function Footer() {
         <div className="border-t border-white/10 pt-12">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="md:col-span-1">
-              <div className="text-lg font-headline font-bold tracking-tight mb-4">
-                <span className="text-primary">SERV</span>
-                <span className="text-white">AI</span>
-              </div>
-              <p className="text-sm text-primary-foreground/60">
+              <Logo />
+              <p className="text-sm text-secondary-foreground/60">
                 Sistemi AI su misura per piccole e medie imprese.
               </p>
             </div>
@@ -62,12 +86,12 @@ export function Footer() {
         </div>
 
         <div className="border-t border-white/10 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center text-center md:text-left">
-          <p className="text-xs text-primary-foreground/50 mb-4 md:mb-0">
+          <p className="text-xs text-secondary-foreground/50 mb-4 md:mb-0">
             © {new Date().getFullYear()} SERV AI S.R.L. – P.IVA 02814790222 – Tutti i diritti riservati.
           </p>
           <div className="flex items-center space-x-4">
             {socialLinks.map((social) => (
-              <a key={social.name} href={social.href} className="text-primary-foreground/60 hover:text-white transition-colors">
+              <a key={social.name} href={social.href} className="text-secondary-foreground/60 hover:text-white transition-colors">
                 <social.icon className="h-5 w-5" />
                 <span className="sr-only">{social.name}</span>
               </a>
