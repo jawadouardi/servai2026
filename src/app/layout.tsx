@@ -2,7 +2,6 @@ import type { Metadata } from 'next';
 import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 import Script from 'next/script';
-import { ElevenLabsWidget } from '@/components/elevenlabs-widget';
 
 export const metadata: Metadata = {
   title: 'SERV AI | Intelligenza Artificiale per Piccole e Medie Imprese',
@@ -78,10 +77,11 @@ export default function RootLayout({
             `,
           }}
         />
-        <ElevenLabsWidget />
         <noscript>
           <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KMQGT2GD" height="0" width="0" style={{display: 'none', visibility: 'hidden'}}></iframe>
         </noscript>
+        <elevenlabs-convai agent-id="agent_3201kg4vk8rmf3htmhbnxn8r6cct"></elevenlabs-convai>
+        <script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"></script>
       </body>
     </html>
   );
