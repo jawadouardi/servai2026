@@ -52,7 +52,7 @@ export function Contact() {
       icon: <MapPin className="h-6 w-6 text-primary" />,
       title: 'Sede Operativa',
       value: 'Via IV Novembre, 2638121 Trento TN',
-      href: 'https://www.google.com/maps?q=Via%20IV%20Novembre,%202638121%20Trento%20TN',
+      href: 'https://www.google.com/maps?q=Via%20IV%20Novembre,%2026,38121%20Trento%20TN',
     },
   ];
 
